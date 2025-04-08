@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+
+# C extensions
+*.egg-info/
+*.egg
+
+# Rust build output
+/target/
+/src/target/
+/web/target/
+/yetanothermlp
+/yetanothermlp/.idea/
+/yetanothermlp/.gitignore/
+# Rust package manager
+Cargo.lock
+
+# Python Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+venv/
+env/
+*.env
+
+# Dataset or intermediate data files
+*.csv
+*.zip
+
+# VSCode / IntelliJ / JetBrains IDE project files
+.idea/
+.vscode/
+
+# Test files
+test_*.py
+tests_*.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Compiled binary or executable files
+*.out
+*.exe
+
+# Ignore user-specific config
+*.user
